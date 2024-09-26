@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Portal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Company Directory Portal</h1>
+
+        <section class="form-section">
+            <h2>Employee Registration Form</h2>
+            <form id="employeeForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="IT">IT</option>
+                        <option value="HR">HR</option>
+                        <option value="HR">Production</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Marketing">Marketing</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="employeeId">Employee ID:</label>
+                    <input type="number" id="employeeId" name="employeeId" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="profilePic">Profile Picture URL:</label>
+                    <input type="url" id="profilePic" name="profilePic" required>
+                </div>
+
+                <button type="submit">Register Employee</button>
+            </form>
+        </section>
+
+        <section class="list-section">
+            <h2>Employee List</h2>
+            <ol id="employeeList">
+                <li><a href="https://www.linkedin.com/in/balasanthosh01/">Bala Santhosh - santhos01ac@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/manojkumar20/"> Manoj Kumar-manojkumararumainathan@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/sivasubramanian19/"> Siva Subramanian-gsivasubramanian19@gmail.com</a></li>
+            </ol>
+        </section>
+
+        <section class="table-section">
+            <h2>Employee Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Employee ID</th>
+                        <th>Department</th>
+                        <th>Profile Picture</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Santhosh</td>
+                        <td>6542355</td>
+                        <td>IT</td>
+                        <td><img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1727376898~exp=1727380498~hmac=4a8a27e891532e8ab97bf2f011d564acb814d0f88eaa2e2f711686bfe05997a5&w=740" alt="santhoshProfile" class="tableImg"></td>
+                    </tr>
+                    <tr>
+                        <td>Manoj</td>
+                        <td>4654655</td>
+                        <td>Finance</td>
+                        <td><img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1727376898~exp=1727380498~hmac=4a8a27e891532e8ab97bf2f011d564acb814d0f88eaa2e2f711686bfe05997a5&w=740" alt="ManojProfile" class="tableImg"></td>
+                    </tr>
+                    <tr></tr>
+                        <td>Siva</td>
+                        <td>2515515</td>
+                        <td>HR</td>
+                        <td><img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1727376898~exp=1727380498~hmac=4a8a27e891532e8ab97bf2f011d564acb814d0f88eaa2e2f711686bfe05997a5&w=740" alt="SivaProfile" class="tableImg"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="map-section">
+            <h2>Company Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8476.842591663755!2d77.03509650174841!3d11.127230465011529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f9be09f83881%3A0x20dd70b69c2b1b20!2sINFO%20Institute%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1727377307025!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+    </div>
+</body>
+</html>
+
